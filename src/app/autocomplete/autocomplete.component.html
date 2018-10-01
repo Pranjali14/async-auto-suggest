@@ -1,0 +1,4 @@
+<div class="search-cont" #search>
+  <app-search-box (searchText)="getRepos($event)" [selectedText]="selectedText"></app-search-box>
+  <app-search-list [items]="items" (selectedItem)="setValue($event)" [showLoader]="showLoader"></app-search-list>
+</div>

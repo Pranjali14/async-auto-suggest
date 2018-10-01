@@ -1,0 +1,12 @@
+.search-box {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 9px;
+    box-shadow: 1px 1px 1px 1px #dad5d5;
+    border: 0px;
+    border-radius: 2px;
+    outline: 0px;
+    font-size: 18px;
+    font-weight: 300;
+}
